@@ -1,0 +1,35 @@
+Token name: Best US Token
+
+Token ticker: BEST
+
+Token decimals: 18
+
+Multisig wallet address: 0x9E26d19C5d87dDCa30668D8150E8E1c5C97397cB
+
+*****************************
+
+Crowdsale rate: 1000000000000000000
+
+Crowdsale start time: 2020-02-20T20:17 (GMT + 7)
+
+Crowdsale end time: 2020-02-21T00:00 (GMT + 7)
+
+Compiler Version: 0.4.11
+
+Is optimization enabled?: true
+
+*****************************
+
+Finalize agent contract name: ReservedTokensFinalizeAgent
+
+Finalize agent contract address for Tier 1: 0x98aEdd29B48CBd74f76e894f36Ceb88cA4968c4e
+
+*****************************
+
+****Finalize agent contract ABI:**** 
+
+[{"constant":false,"inputs":[],"name":"finalizeCrowdsale","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"isFinalizeAgent","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"isSane","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"crowdsale","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"distributedReservedTokensDestinationsLen","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"reservedTokensDistributionBatch","type":"uint256"}],"name":"distributeReservedTokens","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"reservedTokensAreDistributed","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"token","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"inputs":[{"name":"_token","type":"address"},{"name":"_crowdsale","type":"address"}],"payable":false,"type":"constructor"}]
+
+****Finalize agent contract ABI encoded constructor arguments for Tier 1:**** 
+
+00000000000000000000000071c830a05d787c1316a55bf9055a6f5920218537000000000000000000000000d618387f848a7105af91d70ce5011f5a7448f55d
